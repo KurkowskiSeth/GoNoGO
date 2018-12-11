@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11021C0780B00505EF2 /* AppDelegate.swift */; };
+		C0C4F11621C0780C00505EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11421C0780C00505EF2 /* Main.storyboard */; };
+		C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */; };
+		C0C4F11B21C0780E00505EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11A21C0780E00505EF2 /* Assets.xcassets */; };
+		C0C4F11E21C0780E00505EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */; };
+		C0C4F12921C0780E00505EF2 /* GoNoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */; };
+		C0C4F13421C0780E00505EF2 /* GoNoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */; };
+		C0C4F14421C07D6C00505EF2 /* UpcomingLaunches_CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */; };
+		C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C4F12521C0780E00505EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C4F10521C0780B00505EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C4F10C21C0780B00505EF2;
+			remoteInfo = GoNoGo;
+		};
+		C0C4F13021C0780E00505EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C4F10521C0780B00505EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C4F10C21C0780B00505EF2;
+			remoteInfo = GoNoGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0C4F10D21C0780B00505EF2 /* GoNoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C4F11021C0780B00505EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0C4F11521C0780C00505EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoNoGo.xcdatamodel; sourceTree = "<group>"; };
+		C0C4F11A21C0780E00505EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C4F11D21C0780E00505EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0C4F11F21C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoTests.swift; sourceTree = "<group>"; };
+		C0C4F12A21C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoUITests.swift; sourceTree = "<group>"; };
+		C0C4F13521C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunches_CVC.swift; sourceTree = "<group>"; };
+		C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launches_DM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C4F10A21C0780B00505EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12121C0780E00505EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12C21C0780E00505EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0C4F10421C0780B00505EF2 = {
+			isa = PBXGroup;
+			children = (
+				C0C4F10F21C0780B00505EF2 /* GoNoGo */,
+				C0C4F12721C0780E00505EF2 /* GoNoGoTests */,
+				C0C4F13221C0780E00505EF2 /* GoNoGoUITests */,
+				C0C4F10E21C0780B00505EF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C4F10E21C0780B00505EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F10D21C0780B00505EF2 /* GoNoGo.app */,
+				C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */,
+				C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C4F10F21C0780B00505EF2 /* GoNoGo */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F14221C07CEE00505EF2 /* UpcomingLaunches */,
+				C0C4F14121C07CE000505EF2 /* Storyboards */,
+				C0C4F14521C07D8E00505EF2 /* DataModels */,
+				C0C4F11021C0780B00505EF2 /* AppDelegate.swift */,
+				C0C4F11A21C0780E00505EF2 /* Assets.xcassets */,
+				C0C4F11F21C0780E00505EF2 /* Info.plist */,
+				C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */,
+			);
+			path = GoNoGo;
+			sourceTree = "<group>";
+		};
+		C0C4F12721C0780E00505EF2 /* GoNoGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */,
+				C0C4F12A21C0780E00505EF2 /* Info.plist */,
+			);
+			path = GoNoGoTests;
+			sourceTree = "<group>";
+		};
+		C0C4F13221C0780E00505EF2 /* GoNoGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */,
+				C0C4F13521C0780E00505EF2 /* Info.plist */,
+			);
+			path = GoNoGoUITests;
+			sourceTree = "<group>";
+		};
+		C0C4F14121C07CE000505EF2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F11421C0780C00505EF2 /* Main.storyboard */,
+				C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C0C4F14221C07CEE00505EF2 /* UpcomingLaunches */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */,
+			);
+			path = UpcomingLaunches;
+			sourceTree = "<group>";
+		};
+		C0C4F14521C07D8E00505EF2 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C4F10C21C0780B00505EF2 /* GoNoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C4F13821C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGo" */;
+			buildPhases = (
+				C0C4F10921C0780B00505EF2 /* Sources */,
+				C0C4F10A21C0780B00505EF2 /* Frameworks */,
+				C0C4F10B21C0780B00505EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNoGo;
+			productName = GoNoGo;
+			productReference = C0C4F10D21C0780B00505EF2 /* GoNoGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C4F12321C0780E00505EF2 /* GoNoGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C4F13B21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */;
+			buildPhases = (
+				C0C4F12021C0780E00505EF2 /* Sources */,
+				C0C4F12121C0780E00505EF2 /* Frameworks */,
+				C0C4F12221C0780E00505EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C4F12621C0780E00505EF2 /* PBXTargetDependency */,
+			);
+			name = GoNoGoTests;
+			productName = GoNoGoTests;
+			productReference = C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0C4F12E21C0780E00505EF2 /* GoNoGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C4F13E21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */;
+			buildPhases = (
+				C0C4F12B21C0780E00505EF2 /* Sources */,
+				C0C4F12C21C0780E00505EF2 /* Frameworks */,
+				C0C4F12D21C0780E00505EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C4F13121C0780E00505EF2 /* PBXTargetDependency */,
+			);
+			name = GoNoGoUITests;
+			productName = GoNoGoUITests;
+			productReference = C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C4F10521C0780B00505EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Seth Kurkowski";
+				TargetAttributes = {
+					C0C4F10C21C0780B00505EF2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C0C4F12321C0780E00505EF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C0C4F10C21C0780B00505EF2;
+					};
+					C0C4F12E21C0780E00505EF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C0C4F10C21C0780B00505EF2;
+					};
+				};
+			};
+			buildConfigurationList = C0C4F10821C0780B00505EF2 /* Build configuration list for PBXProject "GoNoGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0C4F10421C0780B00505EF2;
+			productRefGroup = C0C4F10E21C0780B00505EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C4F10C21C0780B00505EF2 /* GoNoGo */,
+				C0C4F12321C0780E00505EF2 /* GoNoGoTests */,
+				C0C4F12E21C0780E00505EF2 /* GoNoGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C4F10B21C0780B00505EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4F11E21C0780E00505EF2 /* LaunchScreen.storyboard in Resources */,
+				C0C4F11B21C0780E00505EF2 /* Assets.xcassets in Resources */,
+				C0C4F11621C0780C00505EF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12221C0780E00505EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12D21C0780E00505EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C4F10921C0780B00505EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */,
+				C0C4F14421C07D6C00505EF2 /* UpcomingLaunches_CVC.swift in Sources */,
+				C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */,
+				C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12021C0780E00505EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4F12921C0780E00505EF2 /* GoNoGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4F12B21C0780E00505EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4F13421C0780E00505EF2 /* GoNoGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C4F12621C0780E00505EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C4F10C21C0780B00505EF2 /* GoNoGo */;
+			targetProxy = C0C4F12521C0780E00505EF2 /* PBXContainerItemProxy */;
+		};
+		C0C4F13121C0780E00505EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C4F10C21C0780B00505EF2 /* GoNoGo */;
+			targetProxy = C0C4F13021C0780E00505EF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C4F11421C0780C00505EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C4F11521C0780C00505EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C4F11D21C0780E00505EF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C4F13621C0780E00505EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0C4F13721C0780E00505EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C4F13921C0780E00505EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0C4F13A21C0780E00505EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0C4F13C21C0780E00505EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNoGo.app/GoNoGo";
+			};
+			name = Debug;
+		};
+		C0C4F13D21C0780E00505EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNoGo.app/GoNoGo";
+			};
+			name = Release;
+		};
+		C0C4F13F21C0780E00505EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoNoGo;
+			};
+			name = Debug;
+		};
+		C0C4F14021C0780E00505EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = GoNoGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoNoGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C4F10821C0780B00505EF2 /* Build configuration list for PBXProject "GoNoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C4F13621C0780E00505EF2 /* Debug */,
+				C0C4F13721C0780E00505EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C4F13821C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C4F13921C0780E00505EF2 /* Debug */,
+				C0C4F13A21C0780E00505EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C4F13B21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C4F13C21C0780E00505EF2 /* Debug */,
+				C0C4F13D21C0780E00505EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C4F13E21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C4F13F21C0780E00505EF2 /* Debug */,
+				C0C4F14021C0780E00505EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */,
+			);
+			currentVersion = C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */;
+			path = GoNoGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0C4F10521C0780B00505EF2 /* Project object */;
+}
