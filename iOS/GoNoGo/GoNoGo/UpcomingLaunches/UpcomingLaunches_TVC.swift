@@ -65,7 +65,11 @@ class UpcomingLaunches_TVC: UITableViewController {
         
         cell.nameLbl.text = dataModel.launches[indexPath.row].name
         cell.locationLbl.text = dataModel.launches[indexPath.row].location.name
-        cell.countdownLbl.text = dataModel.launches[indexPath.row].windowstart
+        if dataModel.launches[indexPath.row].status == 1 {
+            cell.countdownLbl.text = dataModel.launches[indexPath.row].getFormattedTime().start
+        } else {
+            cell.countdownLbl.text = "TBD"
+        }
         
         // Add shadow to cell
 //        cell.borderView.layer.shadowPath = UIBezierPath(rect: cell.borderView.bounds).cgPath

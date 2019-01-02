@@ -25,6 +25,23 @@ struct Launch: Decodable {
     var missions: [Mission]
     var lsp: LSP
     
+    func getFormattedTime() -> (start: String, end: String) {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMMM d, yyyy HH:mm:ss z"
+        dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
+        let utcStartDate = dateFormatter.date(from: windowstart)
+        let utcEndDate = dateFormatter.date(from: windowend)
+        
+        dateFormatter.dateFormat = "MMMM d, yyyy h:mm a"
+        dateFormatter.timeZone = TimeZone.current
+        let localStartDate = dateFormatter.string(from: utcStartDate!)
+        let localEndDate = dateFormatter.string(from: utcEndDate!)
+        
+        return (localStartDate, localEndDate)
+        
+    }
+    
     func toString() {
         print("Name: \(name)")
         print("Window Start: \(windowstart)")
