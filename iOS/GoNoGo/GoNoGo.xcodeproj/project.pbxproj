@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9AAB1A98F2A137AF3E851A /* Pods_GoNoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */; };
 		C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11021C0780B00505EF2 /* AppDelegate.swift */; };
 		C0C4F11621C0780C00505EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11421C0780C00505EF2 /* Main.storyboard */; };
 		C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */; };
@@ -14,8 +15,11 @@
 		C0C4F11E21C0780E00505EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */; };
 		C0C4F12921C0780E00505EF2 /* GoNoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */; };
 		C0C4F13421C0780E00505EF2 /* GoNoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */; };
-		C0C4F14421C07D6C00505EF2 /* UpcomingLaunches_CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */; };
 		C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */; };
+		C0C4F14921DC7A9600505EF2 /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */; };
+		C0C4F14D21DC921C00505EF2 /* UpcomingLaunches_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */; };
+		CD882007F3DF0A940E945553 /* Pods_GoNoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */; };
+		F17C19CC01B7ED2D8D9C96F4 /* Pods_GoNoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.release.xcconfig"; sourceTree = "<group>"; };
+		2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C4F10D21C0780B00505EF2 /* GoNoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C4F11021C0780B00505EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0C4F11521C0780C00505EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,8 +58,13 @@
 		C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoUITests.swift; sourceTree = "<group>"; };
 		C0C4F13521C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunches_CVC.swift; sourceTree = "<group>"; };
 		C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launches_DM.swift; sourceTree = "<group>"; };
+		C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunches_TVC.swift; sourceTree = "<group>"; };
+		C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17C19CC01B7ED2D8D9C96F4 /* Pods_GoNoGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9AAB1A98F2A137AF3E851A /* Pods_GoNoGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD882007F3DF0A940E945553 /* Pods_GoNoGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39F4D634233BCC5B6D98DE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */,
+				E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */,
+				C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5672F24B7CCB240D607104EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */,
+				147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */,
+				2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */,
+				F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */,
+				BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */,
+				5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C0C4F10421C0780B00505EF2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				C0C4F12721C0780E00505EF2 /* GoNoGoTests */,
 				C0C4F13221C0780E00505EF2 /* GoNoGoUITests */,
 				C0C4F10E21C0780B00505EF2 /* Products */,
+				5672F24B7CCB240D607104EE /* Pods */,
+				39F4D634233BCC5B6D98DE69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +184,8 @@
 		C0C4F14221C07CEE00505EF2 /* UpcomingLaunches */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F14321C07D6C00505EF2 /* UpcomingLaunches_CVC.swift */,
+				C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */,
+				C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */,
 			);
 			path = UpcomingLaunches;
 			sourceTree = "<group>";
@@ -162,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C4F13821C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGo" */;
 			buildPhases = (
+				09C8038B7D8BDA6408869F86 /* [CP] Check Pods Manifest.lock */,
 				C0C4F10921C0780B00505EF2 /* Sources */,
 				C0C4F10A21C0780B00505EF2 /* Frameworks */,
 				C0C4F10B21C0780B00505EF2 /* Resources */,
@@ -179,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C4F13B21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */;
 			buildPhases = (
+				F23661A735A53D3397BD2370 /* [CP] Check Pods Manifest.lock */,
 				C0C4F12021C0780E00505EF2 /* Sources */,
 				C0C4F12121C0780E00505EF2 /* Frameworks */,
 				C0C4F12221C0780E00505EF2 /* Resources */,
@@ -197,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C4F13E21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */;
 			buildPhases = (
+				1D61FAA57D6FB83DB330D865 /* [CP] Check Pods Manifest.lock */,
 				C0C4F12B21C0780E00505EF2 /* Sources */,
 				C0C4F12C21C0780E00505EF2 /* Frameworks */,
 				C0C4F12D21C0780E00505EF2 /* Resources */,
@@ -281,14 +327,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C8038B7D8BDA6408869F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoNoGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D61FAA57D6FB83DB330D865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoNoGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23661A735A53D3397BD2370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoNoGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0C4F10921C0780B00505EF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C4F14D21DC921C00505EF2 /* UpcomingLaunches_TVC.swift in Sources */,
 				C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */,
-				C0C4F14421C07D6C00505EF2 /* UpcomingLaunches_CVC.swift in Sources */,
 				C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */,
+				C0C4F14921DC7A9600505EF2 /* LaunchCell.swift in Sources */,
 				C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +566,7 @@
 		};
 		C0C4F13921C0780E00505EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +586,7 @@
 		};
 		C0C4F13A21C0780E00505EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +606,7 @@
 		};
 		C0C4F13C21C0780E00505EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +628,7 @@
 		};
 		C0C4F13D21C0780E00505EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +650,7 @@
 		};
 		C0C4F13F21C0780E00505EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +671,7 @@
 		};
 		C0C4F14021C0780E00505EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

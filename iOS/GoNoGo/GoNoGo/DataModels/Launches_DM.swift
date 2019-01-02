@@ -8,10 +8,15 @@
 
 import Foundation
 
+struct DataModel: Decodable {
+    var launches: [Launch]
+}
+
 struct Launch: Decodable {
-    var name: String {
-        return rocket.name + " | " + missions[0].name
-    }
+    var name: String
+//    {
+//        return rocket.name + " | " + missions[0].name
+//    }
     var windowstart: String
     var windowend: String
     var status: Int
