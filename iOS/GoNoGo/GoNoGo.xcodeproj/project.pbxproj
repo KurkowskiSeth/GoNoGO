@@ -7,208 +7,328 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E9AAB1A98F2A137AF3E851A /* Pods_GoNoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */; };
-		C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11021C0780B00505EF2 /* AppDelegate.swift */; };
-		C0C4F11621C0780C00505EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11421C0780C00505EF2 /* Main.storyboard */; };
-		C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */; };
-		C0C4F11B21C0780E00505EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11A21C0780E00505EF2 /* Assets.xcassets */; };
-		C0C4F11E21C0780E00505EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */; };
-		C0C4F12921C0780E00505EF2 /* GoNoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */; };
-		C0C4F13421C0780E00505EF2 /* GoNoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */; };
-		C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */; };
-		C0C4F14921DC7A9600505EF2 /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */; };
-		C0C4F14D21DC921C00505EF2 /* UpcomingLaunches_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */; };
-		CD882007F3DF0A940E945553 /* Pods_GoNoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */; };
-		F17C19CC01B7ED2D8D9C96F4 /* Pods_GoNoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */; };
+		4B698D84ED91B0629ABF560A /* Pods_GoNoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6E73F01723CC49B205316B /* Pods_GoNoGoTests.framework */; };
+		6AEF70F218E68534A6CB2DC6 /* Pods_GoNoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD61F3CDFB4F8C7783E5E0D6 /* Pods_GoNoGo.framework */; };
+		C05FBF1E2273BCEA005938F9 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF1D2273BCEA005938F9 /* SideMenuViewController.swift */; };
+		C05FBF212273C91C005938F9 /* Home+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF202273C91C005938F9 /* Home+Functions.swift */; };
+		C05FBF232273C958005938F9 /* Home+UpcomingLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF222273C958005938F9 /* Home+UpcomingLaunches.swift */; };
+		C05FBF252273C9BE005938F9 /* Home+ColectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF242273C9BE005938F9 /* Home+ColectionView.swift */; };
+		C05FBF272273CBFB005938F9 /* Home+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF262273CBFB005938F9 /* Home+SideMenu.swift */; };
+		C05FBF292273D345005938F9 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF282273D345005938F9 /* ContainerViewController.swift */; };
+		C05FBF2C2273D433005938F9 /* Container+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF2B2273D433005938F9 /* Container+Functions.swift */; };
+		C05FBF2E227617A3005938F9 /* Container+HomeVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF2D227617A3005938F9 /* Container+HomeVCDelegate.swift */; };
+		C05FBF3022761EA7005938F9 /* Container+SideMenuVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF2F22761EA7005938F9 /* Container+SideMenuVCDelegate.swift */; };
+		C05FBF33227622F0005938F9 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF32227622F0005938F9 /* LocationsViewController.swift */; };
+		C05FBF362276230F005938F9 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FBF352276230F005938F9 /* ChecklistViewController.swift */; };
+		C06A622F226E9146003436EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C06A622E226E9146003436EC /* GoogleService-Info.plist */; };
+		C0FD6BB22252F4B300083D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BB12252F4B300083D10 /* AppDelegate.swift */; };
+		C0FD6BB42252F4B300083D10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BB32252F4B300083D10 /* HomeViewController.swift */; };
+		C0FD6BB72252F4B300083D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FD6BB52252F4B300083D10 /* Main.storyboard */; };
+		C0FD6BBA2252F4B300083D10 /* GoNoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BB82252F4B300083D10 /* GoNoGo.xcdatamodeld */; };
+		C0FD6BBC2252F4B400083D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FD6BBB2252F4B400083D10 /* Assets.xcassets */; };
+		C0FD6BBF2252F4B400083D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FD6BBD2252F4B400083D10 /* LaunchScreen.storyboard */; };
+		C0FD6BCA2252F4B400083D10 /* GoNoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BC92252F4B400083D10 /* GoNoGoTests.swift */; };
+		C0FD6BD52252F4B400083D10 /* GoNoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BD42252F4B400083D10 /* GoNoGoUITests.swift */; };
+		C0FD6BE82252F9F500083D10 /* UpcomingLaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BE72252F9F500083D10 /* UpcomingLaunchCell.swift */; };
+		C0FD6BEE225301AE00083D10 /* UpcomingLaunchesLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BED225301AE00083D10 /* UpcomingLaunchesLayout.swift */; };
+		C0FD6BF72254583300083D10 /* UpcomingLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD6BF62254583300083D10 /* UpcomingLaunches.swift */; };
+		DCC0D1F7EC727C23DAC9BB86 /* Pods_GoNoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E0EA6A31E7026953263DF6 /* Pods_GoNoGoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0C4F12521C0780E00505EF2 /* PBXContainerItemProxy */ = {
+		C0FD6BC62252F4B400083D10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C0C4F10521C0780B00505EF2 /* Project object */;
+			containerPortal = C0FD6BA62252F4B300083D10 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0C4F10C21C0780B00505EF2;
+			remoteGlobalIDString = C0FD6BAD2252F4B300083D10;
 			remoteInfo = GoNoGo;
 		};
-		C0C4F13021C0780E00505EF2 /* PBXContainerItemProxy */ = {
+		C0FD6BD12252F4B400083D10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C0C4F10521C0780B00505EF2 /* Project object */;
+			containerPortal = C0FD6BA62252F4B300083D10 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0C4F10C21C0780B00505EF2;
+			remoteGlobalIDString = C0FD6BAD2252F4B300083D10;
 			remoteInfo = GoNoGo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.release.xcconfig"; sourceTree = "<group>"; };
-		2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0C4F10D21C0780B00505EF2 /* GoNoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C4F11021C0780B00505EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0C4F11521C0780C00505EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoNoGo.xcdatamodel; sourceTree = "<group>"; };
-		C0C4F11A21C0780E00505EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0C4F11D21C0780E00505EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C0C4F11F21C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoTests.swift; sourceTree = "<group>"; };
-		C0C4F12A21C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoUITests.swift; sourceTree = "<group>"; };
-		C0C4F13521C0780E00505EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launches_DM.swift; sourceTree = "<group>"; };
-		C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
-		C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunches_TVC.swift; sourceTree = "<group>"; };
-		C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.debug.xcconfig"; sourceTree = "<group>"; };
-		F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E0EA6A31E7026953263DF6 /* Pods_GoNoGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695479F4C329E0E689C2365D /* Pods-GoNoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.release.xcconfig"; sourceTree = "<group>"; };
+		6FA966A631DD00F9EC444FA0 /* Pods-GoNoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		711BFB616D11640BDA458A90 /* Pods-GoNoGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78E276FD7D1A5B82F0612FF7 /* Pods-GoNoGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoUITests/Pods-GoNoGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A6E73F01723CC49B205316B /* Pods_GoNoGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC950E9006AEC8F9A13B5334 /* Pods-GoNoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C05FBF1D2273BCEA005938F9 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		C05FBF202273C91C005938F9 /* Home+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+Functions.swift"; sourceTree = "<group>"; };
+		C05FBF222273C958005938F9 /* Home+UpcomingLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+UpcomingLaunches.swift"; sourceTree = "<group>"; };
+		C05FBF242273C9BE005938F9 /* Home+ColectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+ColectionView.swift"; sourceTree = "<group>"; };
+		C05FBF262273CBFB005938F9 /* Home+SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+SideMenu.swift"; sourceTree = "<group>"; };
+		C05FBF282273D345005938F9 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C05FBF2B2273D433005938F9 /* Container+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Functions.swift"; sourceTree = "<group>"; };
+		C05FBF2D227617A3005938F9 /* Container+HomeVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+HomeVCDelegate.swift"; sourceTree = "<group>"; };
+		C05FBF2F22761EA7005938F9 /* Container+SideMenuVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+SideMenuVCDelegate.swift"; sourceTree = "<group>"; };
+		C05FBF32227622F0005938F9 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		C05FBF352276230F005938F9 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		C06A622E226E9146003436EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0FD6BAE2252F4B300083D10 /* GoNoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FD6BB12252F4B300083D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0FD6BB32252F4B300083D10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C0FD6BB62252F4B300083D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FD6BB92252F4B300083D10 /* GoNoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoNoGo.xcdatamodel; sourceTree = "<group>"; };
+		C0FD6BBB2252F4B400083D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FD6BBE2252F4B400083D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FD6BC02252F4B400083D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FD6BC52252F4B400083D10 /* GoNoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FD6BC92252F4B400083D10 /* GoNoGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoTests.swift; sourceTree = "<group>"; };
+		C0FD6BCB2252F4B400083D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FD6BD02252F4B400083D10 /* GoNoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FD6BD42252F4B400083D10 /* GoNoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNoGoUITests.swift; sourceTree = "<group>"; };
+		C0FD6BD62252F4B400083D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FD6BE72252F9F500083D10 /* UpcomingLaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunchCell.swift; sourceTree = "<group>"; };
+		C0FD6BED225301AE00083D10 /* UpcomingLaunchesLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunchesLayout.swift; sourceTree = "<group>"; };
+		C0FD6BF62254583300083D10 /* UpcomingLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLaunches.swift; sourceTree = "<group>"; };
+		CD61F3CDFB4F8C7783E5E0D6 /* Pods_GoNoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoNoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7953BB4054C6D630EBDC5B /* Pods-GoNoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNoGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoNoGoTests/Pods-GoNoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0C4F10A21C0780B00505EF2 /* Frameworks */ = {
+		C0FD6BAB2252F4B300083D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17C19CC01B7ED2D8D9C96F4 /* Pods_GoNoGo.framework in Frameworks */,
+				6AEF70F218E68534A6CB2DC6 /* Pods_GoNoGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12121C0780E00505EF2 /* Frameworks */ = {
+		C0FD6BC22252F4B400083D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9AAB1A98F2A137AF3E851A /* Pods_GoNoGoTests.framework in Frameworks */,
+				4B698D84ED91B0629ABF560A /* Pods_GoNoGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12C21C0780E00505EF2 /* Frameworks */ = {
+		C0FD6BCD2252F4B400083D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD882007F3DF0A940E945553 /* Pods_GoNoGoUITests.framework in Frameworks */,
+				DCC0D1F7EC727C23DAC9BB86 /* Pods_GoNoGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39F4D634233BCC5B6D98DE69 /* Frameworks */ = {
+		820BD0BB26FC155121393D50 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A6075C3DAABC878D496698B /* Pods_GoNoGo.framework */,
-				E11ADBEEBD63DBE70F0938AD /* Pods_GoNoGoTests.framework */,
-				C28E781696810D715157C7C0 /* Pods_GoNoGoUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5672F24B7CCB240D607104EE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */,
-				147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */,
-				2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */,
-				F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */,
-				BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */,
-				5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */,
+				6FA966A631DD00F9EC444FA0 /* Pods-GoNoGo.debug.xcconfig */,
+				695479F4C329E0E689C2365D /* Pods-GoNoGo.release.xcconfig */,
+				DD7953BB4054C6D630EBDC5B /* Pods-GoNoGoTests.debug.xcconfig */,
+				AC950E9006AEC8F9A13B5334 /* Pods-GoNoGoTests.release.xcconfig */,
+				78E276FD7D1A5B82F0612FF7 /* Pods-GoNoGoUITests.debug.xcconfig */,
+				711BFB616D11640BDA458A90 /* Pods-GoNoGoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C0C4F10421C0780B00505EF2 = {
+		C05FBF1F2273C8FE005938F9 /* HomeViewController_Exts */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F10F21C0780B00505EF2 /* GoNoGo */,
-				C0C4F12721C0780E00505EF2 /* GoNoGoTests */,
-				C0C4F13221C0780E00505EF2 /* GoNoGoUITests */,
-				C0C4F10E21C0780B00505EF2 /* Products */,
-				5672F24B7CCB240D607104EE /* Pods */,
-				39F4D634233BCC5B6D98DE69 /* Frameworks */,
+				C05FBF202273C91C005938F9 /* Home+Functions.swift */,
+				C05FBF222273C958005938F9 /* Home+UpcomingLaunches.swift */,
+				C05FBF242273C9BE005938F9 /* Home+ColectionView.swift */,
+				C05FBF262273CBFB005938F9 /* Home+SideMenu.swift */,
+			);
+			path = HomeViewController_Exts;
+			sourceTree = "<group>";
+		};
+		C05FBF2A2273D36D005938F9 /* ContainerViewController_Exts */ = {
+			isa = PBXGroup;
+			children = (
+				C05FBF2B2273D433005938F9 /* Container+Functions.swift */,
+				C05FBF2D227617A3005938F9 /* Container+HomeVCDelegate.swift */,
+				C05FBF2F22761EA7005938F9 /* Container+SideMenuVCDelegate.swift */,
+			);
+			path = ContainerViewController_Exts;
+			sourceTree = "<group>";
+		};
+		C05FBF31227622C6005938F9 /* SideMenuViewController_Exts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideMenuViewController_Exts;
+			sourceTree = "<group>";
+		};
+		C05FBF34227622F6005938F9 /* LocationsViewController_Exts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationsViewController_Exts;
+			sourceTree = "<group>";
+		};
+		C05FBF3722762317005938F9 /* ChecklistViewController_Exts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChecklistViewController_Exts;
+			sourceTree = "<group>";
+		};
+		C0FD6BA52252F4B300083D10 = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BB02252F4B300083D10 /* GoNoGo */,
+				C0FD6BC82252F4B400083D10 /* GoNoGoTests */,
+				C0FD6BD32252F4B400083D10 /* GoNoGoUITests */,
+				C0FD6BAF2252F4B300083D10 /* Products */,
+				820BD0BB26FC155121393D50 /* Pods */,
+				F44F4E388BFF80BF1822FA7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C0C4F10E21C0780B00505EF2 /* Products */ = {
+		C0FD6BAF2252F4B300083D10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F10D21C0780B00505EF2 /* GoNoGo.app */,
-				C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */,
-				C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */,
+				C0FD6BAE2252F4B300083D10 /* GoNoGo.app */,
+				C0FD6BC52252F4B400083D10 /* GoNoGoTests.xctest */,
+				C0FD6BD02252F4B400083D10 /* GoNoGoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0C4F10F21C0780B00505EF2 /* GoNoGo */ = {
+		C0FD6BB02252F4B300083D10 /* GoNoGo */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F14221C07CEE00505EF2 /* UpcomingLaunches */,
-				C0C4F14121C07CE000505EF2 /* Storyboards */,
-				C0C4F14521C07D8E00505EF2 /* DataModels */,
-				C0C4F11021C0780B00505EF2 /* AppDelegate.swift */,
-				C0C4F11A21C0780E00505EF2 /* Assets.xcassets */,
-				C0C4F11F21C0780E00505EF2 /* Info.plist */,
-				C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */,
+				C0FD6BF22254513500083D10 /* Data Models */,
+				C0FD6BE42252F6D500083D10 /* Controllers */,
+				C0FD6BE62252F9A200083D10 /* Custom Cells */,
+				C0FD6BEC2253019C00083D10 /* Layouts */,
+				C0FD6BE32252F6C200083D10 /* Storyboards */,
+				C0FD6BE22252F66300083D10 /* Assets */,
+				C0FD6BE52252F6F100083D10 /* Other */,
 			);
 			path = GoNoGo;
 			sourceTree = "<group>";
 		};
-		C0C4F12721C0780E00505EF2 /* GoNoGoTests */ = {
+		C0FD6BC82252F4B400083D10 /* GoNoGoTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F12821C0780E00505EF2 /* GoNoGoTests.swift */,
-				C0C4F12A21C0780E00505EF2 /* Info.plist */,
+				C0FD6BC92252F4B400083D10 /* GoNoGoTests.swift */,
+				C0FD6BCB2252F4B400083D10 /* Info.plist */,
 			);
 			path = GoNoGoTests;
 			sourceTree = "<group>";
 		};
-		C0C4F13221C0780E00505EF2 /* GoNoGoUITests */ = {
+		C0FD6BD32252F4B400083D10 /* GoNoGoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F13321C0780E00505EF2 /* GoNoGoUITests.swift */,
-				C0C4F13521C0780E00505EF2 /* Info.plist */,
+				C0FD6BD42252F4B400083D10 /* GoNoGoUITests.swift */,
+				C0FD6BD62252F4B400083D10 /* Info.plist */,
 			);
 			path = GoNoGoUITests;
 			sourceTree = "<group>";
 		};
-		C0C4F14121C07CE000505EF2 /* Storyboards */ = {
+		C0FD6BE22252F66300083D10 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F11421C0780C00505EF2 /* Main.storyboard */,
-				C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */,
+				C06A622E226E9146003436EC /* GoogleService-Info.plist */,
+				C0FD6BC02252F4B400083D10 /* Info.plist */,
+				C0FD6BBB2252F4B400083D10 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C0FD6BE32252F6C200083D10 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BBD2252F4B400083D10 /* LaunchScreen.storyboard */,
+				C0FD6BB52252F4B300083D10 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		C0C4F14221C07CEE00505EF2 /* UpcomingLaunches */ = {
+		C0FD6BE42252F6D500083D10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F14C21DC921C00505EF2 /* UpcomingLaunches_TVC.swift */,
-				C0C4F14821DC7A9600505EF2 /* LaunchCell.swift */,
+				C05FBF282273D345005938F9 /* ContainerViewController.swift */,
+				C05FBF2A2273D36D005938F9 /* ContainerViewController_Exts */,
+				C05FBF1D2273BCEA005938F9 /* SideMenuViewController.swift */,
+				C05FBF31227622C6005938F9 /* SideMenuViewController_Exts */,
+				C0FD6BB32252F4B300083D10 /* HomeViewController.swift */,
+				C05FBF1F2273C8FE005938F9 /* HomeViewController_Exts */,
+				C05FBF32227622F0005938F9 /* LocationsViewController.swift */,
+				C05FBF34227622F6005938F9 /* LocationsViewController_Exts */,
+				C05FBF352276230F005938F9 /* ChecklistViewController.swift */,
+				C05FBF3722762317005938F9 /* ChecklistViewController_Exts */,
 			);
-			path = UpcomingLaunches;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C0C4F14521C07D8E00505EF2 /* DataModels */ = {
+		C0FD6BE52252F6F100083D10 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				C0C4F14621C07DAC00505EF2 /* Launches_DM.swift */,
+				C0FD6BB12252F4B300083D10 /* AppDelegate.swift */,
+				C0FD6BB82252F4B300083D10 /* GoNoGo.xcdatamodeld */,
 			);
-			path = DataModels;
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C0FD6BE62252F9A200083D10 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BE72252F9F500083D10 /* UpcomingLaunchCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		C0FD6BEC2253019C00083D10 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BED225301AE00083D10 /* UpcomingLaunchesLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		C0FD6BF22254513500083D10 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BF32254514400083D10 /* Launches */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C0FD6BF32254514400083D10 /* Launches */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6BF62254583300083D10 /* UpcomingLaunches.swift */,
+			);
+			path = Launches;
+			sourceTree = "<group>";
+		};
+		F44F4E388BFF80BF1822FA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD61F3CDFB4F8C7783E5E0D6 /* Pods_GoNoGo.framework */,
+				9A6E73F01723CC49B205316B /* Pods_GoNoGoTests.framework */,
+				56E0EA6A31E7026953263DF6 /* Pods_GoNoGoUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0C4F10C21C0780B00505EF2 /* GoNoGo */ = {
+		C0FD6BAD2252F4B300083D10 /* GoNoGo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0C4F13821C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGo" */;
+			buildConfigurationList = C0FD6BD92252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGo" */;
 			buildPhases = (
-				09C8038B7D8BDA6408869F86 /* [CP] Check Pods Manifest.lock */,
-				C0C4F10921C0780B00505EF2 /* Sources */,
-				C0C4F10A21C0780B00505EF2 /* Frameworks */,
-				C0C4F10B21C0780B00505EF2 /* Resources */,
+				4BE23372250E01A8D113FBCA /* [CP] Check Pods Manifest.lock */,
+				C0FD6BAA2252F4B300083D10 /* Sources */,
+				C0FD6BAB2252F4B300083D10 /* Frameworks */,
+				C0FD6BAC2252F4B300083D10 /* Resources */,
+				C8F0F56C3F30061BCAEAE5FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,71 +336,71 @@
 			);
 			name = GoNoGo;
 			productName = GoNoGo;
-			productReference = C0C4F10D21C0780B00505EF2 /* GoNoGo.app */;
+			productReference = C0FD6BAE2252F4B300083D10 /* GoNoGo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0C4F12321C0780E00505EF2 /* GoNoGoTests */ = {
+		C0FD6BC42252F4B400083D10 /* GoNoGoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0C4F13B21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */;
+			buildConfigurationList = C0FD6BDC2252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */;
 			buildPhases = (
-				F23661A735A53D3397BD2370 /* [CP] Check Pods Manifest.lock */,
-				C0C4F12021C0780E00505EF2 /* Sources */,
-				C0C4F12121C0780E00505EF2 /* Frameworks */,
-				C0C4F12221C0780E00505EF2 /* Resources */,
+				D0E5A866D51FD2583066B491 /* [CP] Check Pods Manifest.lock */,
+				C0FD6BC12252F4B400083D10 /* Sources */,
+				C0FD6BC22252F4B400083D10 /* Frameworks */,
+				C0FD6BC32252F4B400083D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0C4F12621C0780E00505EF2 /* PBXTargetDependency */,
+				C0FD6BC72252F4B400083D10 /* PBXTargetDependency */,
 			);
 			name = GoNoGoTests;
 			productName = GoNoGoTests;
-			productReference = C0C4F12421C0780E00505EF2 /* GoNoGoTests.xctest */;
+			productReference = C0FD6BC52252F4B400083D10 /* GoNoGoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0C4F12E21C0780E00505EF2 /* GoNoGoUITests */ = {
+		C0FD6BCF2252F4B400083D10 /* GoNoGoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0C4F13E21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */;
+			buildConfigurationList = C0FD6BDF2252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */;
 			buildPhases = (
-				1D61FAA57D6FB83DB330D865 /* [CP] Check Pods Manifest.lock */,
-				C0C4F12B21C0780E00505EF2 /* Sources */,
-				C0C4F12C21C0780E00505EF2 /* Frameworks */,
-				C0C4F12D21C0780E00505EF2 /* Resources */,
+				EB295EAFBC3F916B7445BA1E /* [CP] Check Pods Manifest.lock */,
+				C0FD6BCC2252F4B400083D10 /* Sources */,
+				C0FD6BCD2252F4B400083D10 /* Frameworks */,
+				C0FD6BCE2252F4B400083D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0C4F13121C0780E00505EF2 /* PBXTargetDependency */,
+				C0FD6BD22252F4B400083D10 /* PBXTargetDependency */,
 			);
 			name = GoNoGoUITests;
 			productName = GoNoGoUITests;
-			productReference = C0C4F12F21C0780E00505EF2 /* GoNoGoUITests.xctest */;
+			productReference = C0FD6BD02252F4B400083D10 /* GoNoGoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0C4F10521C0780B00505EF2 /* Project object */ = {
+		C0FD6BA62252F4B300083D10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Seth Kurkowski";
 				TargetAttributes = {
-					C0C4F10C21C0780B00505EF2 = {
-						CreatedOnToolsVersion = 10.1;
+					C0FD6BAD2252F4B300083D10 = {
+						CreatedOnToolsVersion = 10.2;
 					};
-					C0C4F12321C0780E00505EF2 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C0C4F10C21C0780B00505EF2;
+					C0FD6BC42252F4B400083D10 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C0FD6BAD2252F4B300083D10;
 					};
-					C0C4F12E21C0780E00505EF2 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C0C4F10C21C0780B00505EF2;
+					C0FD6BCF2252F4B400083D10 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C0FD6BAD2252F4B300083D10;
 					};
 				};
 			};
-			buildConfigurationList = C0C4F10821C0780B00505EF2 /* Build configuration list for PBXProject "GoNoGo" */;
+			buildConfigurationList = C0FD6BA92252F4B300083D10 /* Build configuration list for PBXProject "GoNoGo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,37 +408,38 @@
 				en,
 				Base,
 			);
-			mainGroup = C0C4F10421C0780B00505EF2;
-			productRefGroup = C0C4F10E21C0780B00505EF2 /* Products */;
+			mainGroup = C0FD6BA52252F4B300083D10;
+			productRefGroup = C0FD6BAF2252F4B300083D10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0C4F10C21C0780B00505EF2 /* GoNoGo */,
-				C0C4F12321C0780E00505EF2 /* GoNoGoTests */,
-				C0C4F12E21C0780E00505EF2 /* GoNoGoUITests */,
+				C0FD6BAD2252F4B300083D10 /* GoNoGo */,
+				C0FD6BC42252F4B400083D10 /* GoNoGoTests */,
+				C0FD6BCF2252F4B400083D10 /* GoNoGoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C0C4F10B21C0780B00505EF2 /* Resources */ = {
+		C0FD6BAC2252F4B300083D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C4F11E21C0780E00505EF2 /* LaunchScreen.storyboard in Resources */,
-				C0C4F11B21C0780E00505EF2 /* Assets.xcassets in Resources */,
-				C0C4F11621C0780C00505EF2 /* Main.storyboard in Resources */,
+				C0FD6BBF2252F4B400083D10 /* LaunchScreen.storyboard in Resources */,
+				C06A622F226E9146003436EC /* GoogleService-Info.plist in Resources */,
+				C0FD6BBC2252F4B400083D10 /* Assets.xcassets in Resources */,
+				C0FD6BB72252F4B300083D10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12221C0780E00505EF2 /* Resources */ = {
+		C0FD6BC32252F4B400083D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12D21C0780E00505EF2 /* Resources */ = {
+		C0FD6BCE2252F4B400083D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,7 +449,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09C8038B7D8BDA6408869F86 /* [CP] Check Pods Manifest.lock */ = {
+		4BE23372250E01A8D113FBCA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,25 +467,27 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1D61FAA57D6FB83DB330D865 /* [CP] Check Pods Manifest.lock */ = {
+		C8F0F56C3F30061BCAEAE5FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GoNoGoUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoNoGo/Pods-GoNoGo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F23661A735A53D3397BD2370 /* [CP] Check Pods Manifest.lock */ = {
+		D0E5A866D51FD2583066B491 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,65 +505,95 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EB295EAFBC3F916B7445BA1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoNoGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0C4F10921C0780B00505EF2 /* Sources */ = {
+		C0FD6BAA2252F4B300083D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C4F14D21DC921C00505EF2 /* UpcomingLaunches_TVC.swift in Sources */,
-				C0C4F11921C0780C00505EF2 /* GoNoGo.xcdatamodeld in Sources */,
-				C0C4F11121C0780B00505EF2 /* AppDelegate.swift in Sources */,
-				C0C4F14921DC7A9600505EF2 /* LaunchCell.swift in Sources */,
-				C0C4F14721C07DAC00505EF2 /* Launches_DM.swift in Sources */,
+				C0FD6BE82252F9F500083D10 /* UpcomingLaunchCell.swift in Sources */,
+				C05FBF252273C9BE005938F9 /* Home+ColectionView.swift in Sources */,
+				C0FD6BEE225301AE00083D10 /* UpcomingLaunchesLayout.swift in Sources */,
+				C05FBF33227622F0005938F9 /* LocationsViewController.swift in Sources */,
+				C0FD6BBA2252F4B300083D10 /* GoNoGo.xcdatamodeld in Sources */,
+				C05FBF232273C958005938F9 /* Home+UpcomingLaunches.swift in Sources */,
+				C05FBF2C2273D433005938F9 /* Container+Functions.swift in Sources */,
+				C05FBF362276230F005938F9 /* ChecklistViewController.swift in Sources */,
+				C05FBF212273C91C005938F9 /* Home+Functions.swift in Sources */,
+				C0FD6BB42252F4B300083D10 /* HomeViewController.swift in Sources */,
+				C05FBF2E227617A3005938F9 /* Container+HomeVCDelegate.swift in Sources */,
+				C05FBF1E2273BCEA005938F9 /* SideMenuViewController.swift in Sources */,
+				C0FD6BF72254583300083D10 /* UpcomingLaunches.swift in Sources */,
+				C0FD6BB22252F4B300083D10 /* AppDelegate.swift in Sources */,
+				C05FBF292273D345005938F9 /* ContainerViewController.swift in Sources */,
+				C05FBF272273CBFB005938F9 /* Home+SideMenu.swift in Sources */,
+				C05FBF3022761EA7005938F9 /* Container+SideMenuVCDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12021C0780E00505EF2 /* Sources */ = {
+		C0FD6BC12252F4B400083D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C4F12921C0780E00505EF2 /* GoNoGoTests.swift in Sources */,
+				C0FD6BCA2252F4B400083D10 /* GoNoGoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C4F12B21C0780E00505EF2 /* Sources */ = {
+		C0FD6BCC2252F4B400083D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C4F13421C0780E00505EF2 /* GoNoGoUITests.swift in Sources */,
+				C0FD6BD52252F4B400083D10 /* GoNoGoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C0C4F12621C0780E00505EF2 /* PBXTargetDependency */ = {
+		C0FD6BC72252F4B400083D10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0C4F10C21C0780B00505EF2 /* GoNoGo */;
-			targetProxy = C0C4F12521C0780E00505EF2 /* PBXContainerItemProxy */;
+			target = C0FD6BAD2252F4B300083D10 /* GoNoGo */;
+			targetProxy = C0FD6BC62252F4B400083D10 /* PBXContainerItemProxy */;
 		};
-		C0C4F13121C0780E00505EF2 /* PBXTargetDependency */ = {
+		C0FD6BD22252F4B400083D10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0C4F10C21C0780B00505EF2 /* GoNoGo */;
-			targetProxy = C0C4F13021C0780E00505EF2 /* PBXContainerItemProxy */;
+			target = C0FD6BAD2252F4B300083D10 /* GoNoGo */;
+			targetProxy = C0FD6BD12252F4B400083D10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0C4F11421C0780C00505EF2 /* Main.storyboard */ = {
+		C0FD6BB52252F4B300083D10 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0C4F11521C0780C00505EF2 /* Base */,
+				C0FD6BB62252F4B300083D10 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C0C4F11C21C0780E00505EF2 /* LaunchScreen.storyboard */ = {
+		C0FD6BBD2252F4B400083D10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0C4F11D21C0780E00505EF2 /* Base */,
+				C0FD6BBE2252F4B400083D10 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -448,7 +601,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C0C4F13621C0780E00505EF2 /* Debug */ = {
+		C0FD6BD72252F4B400083D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -499,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -509,7 +662,7 @@
 			};
 			name = Debug;
 		};
-		C0C4F13721C0780E00505EF2 /* Release */ = {
+		C0FD6BD82252F4B400083D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,7 +707,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -564,127 +717,105 @@
 			};
 			name = Release;
 		};
-		C0C4F13921C0780E00505EF2 /* Debug */ = {
+		C0FD6BDA2252F4B400083D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C4C9C5E62A53A47B0DC53C /* Pods-GoNoGo.debug.xcconfig */;
+			baseConfigurationReference = 6FA966A631DD00F9EC444FA0 /* Pods-GoNoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
-				INFOPLIST_FILE = GoNoGo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGo;
+				INFOPLIST_FILE = GoNoGo/Assets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.StarStuff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C0C4F13A21C0780E00505EF2 /* Release */ = {
+		C0FD6BDB2252F4B400083D10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147598D18FA3F9B77D9554DF /* Pods-GoNoGo.release.xcconfig */;
+			baseConfigurationReference = 695479F4C329E0E689C2365D /* Pods-GoNoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
-				INFOPLIST_FILE = GoNoGo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGo;
+				INFOPLIST_FILE = GoNoGo/Assets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.StarStuff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C0C4F13C21C0780E00505EF2 /* Debug */ = {
+		C0FD6BDD2252F4B400083D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2970FC3F367EE13D57BBFB9F /* Pods-GoNoGoTests.debug.xcconfig */;
+			baseConfigurationReference = DD7953BB4054C6D630EBDC5B /* Pods-GoNoGoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
 				INFOPLIST_FILE = GoNoGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNoGo.app/GoNoGo";
 			};
 			name = Debug;
 		};
-		C0C4F13D21C0780E00505EF2 /* Release */ = {
+		C0FD6BDE2252F4B400083D10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F77C439B7D187EF0DCACC304 /* Pods-GoNoGoTests.release.xcconfig */;
+			baseConfigurationReference = AC950E9006AEC8F9A13B5334 /* Pods-GoNoGoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
 				INFOPLIST_FILE = GoNoGoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNoGo.app/GoNoGo";
 			};
 			name = Release;
 		};
-		C0C4F13F21C0780E00505EF2 /* Debug */ = {
+		C0FD6BE02252F4B400083D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB01ADE4D5F0799CEFDA6A4E /* Pods-GoNoGoUITests.debug.xcconfig */;
+			baseConfigurationReference = 78E276FD7D1A5B82F0612FF7 /* Pods-GoNoGoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
 				INFOPLIST_FILE = GoNoGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GoNoGo;
 			};
 			name = Debug;
 		};
-		C0C4F14021C0780E00505EF2 /* Release */ = {
+		C0FD6BE12252F4B400083D10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5489A98ECB538A586653B2C0 /* Pods-GoNoGoUITests.release.xcconfig */;
+			baseConfigurationReference = 711BFB616D11640BDA458A90 /* Pods-GoNoGoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL2U9TNTMV;
 				INFOPLIST_FILE = GoNoGoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethkurkowski.GoNoGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GoNoGo;
 			};
@@ -693,38 +824,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0C4F10821C0780B00505EF2 /* Build configuration list for PBXProject "GoNoGo" */ = {
+		C0FD6BA92252F4B300083D10 /* Build configuration list for PBXProject "GoNoGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0C4F13621C0780E00505EF2 /* Debug */,
-				C0C4F13721C0780E00505EF2 /* Release */,
+				C0FD6BD72252F4B400083D10 /* Debug */,
+				C0FD6BD82252F4B400083D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0C4F13821C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGo" */ = {
+		C0FD6BD92252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0C4F13921C0780E00505EF2 /* Debug */,
-				C0C4F13A21C0780E00505EF2 /* Release */,
+				C0FD6BDA2252F4B400083D10 /* Debug */,
+				C0FD6BDB2252F4B400083D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0C4F13B21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */ = {
+		C0FD6BDC2252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0C4F13C21C0780E00505EF2 /* Debug */,
-				C0C4F13D21C0780E00505EF2 /* Release */,
+				C0FD6BDD2252F4B400083D10 /* Debug */,
+				C0FD6BDE2252F4B400083D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0C4F13E21C0780E00505EF2 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */ = {
+		C0FD6BDF2252F4B400083D10 /* Build configuration list for PBXNativeTarget "GoNoGoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0C4F13F21C0780E00505EF2 /* Debug */,
-				C0C4F14021C0780E00505EF2 /* Release */,
+				C0FD6BE02252F4B400083D10 /* Debug */,
+				C0FD6BE12252F4B400083D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -732,17 +863,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C0C4F11721C0780C00505EF2 /* GoNoGo.xcdatamodeld */ = {
+		C0FD6BB82252F4B300083D10 /* GoNoGo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */,
+				C0FD6BB92252F4B300083D10 /* GoNoGo.xcdatamodel */,
 			);
-			currentVersion = C0C4F11821C0780C00505EF2 /* GoNoGo.xcdatamodel */;
+			currentVersion = C0FD6BB92252F4B300083D10 /* GoNoGo.xcdatamodel */;
 			path = GoNoGo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C0C4F10521C0780B00505EF2 /* Project object */;
+	rootObject = C0FD6BA62252F4B300083D10 /* Project object */;
 }

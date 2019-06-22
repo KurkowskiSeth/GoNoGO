@@ -2,8 +2,8 @@
 //  GoNoGoTests.swift
 //  GoNoGoTests
 //
-//  Created by Seth Kurkowski on 4/1/19.
-//  Copyright © 2019 Seth Kurkowski. All rights reserved.
+//  Created by Seth Kurkowski on 12/11/18.
+//  Copyright © 2018 Seth Kurkowski. All rights reserved.
 //
 
 import XCTest
